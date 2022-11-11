@@ -1,12 +1,8 @@
 
 
-class FonException(Exception):
+class NintendoStoreException(Exception):
     pass
 
 
-class InvalidLogin(FonException):
-    pass
-
-
-class TimeClockUnavailable(FonException):
+class InvalidLogin(NintendoStoreException):
     pass
